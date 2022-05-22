@@ -1,0 +1,93 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color:black;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    align-items:center;
+    background-color:#222;
+    text-align:center;
+    width:50%;
+    margin:3rem 20rem;
+    
+}
+.card-title h2{
+    color:white;
+    margin-bottom:1.1rem;
+    font-size:3rem;
+
+}
+input{
+    font-size:1rem;
+    padding:5px;
+    border-radius:7px;
+
+}
+::placeholder{
+    padding:7px;
+}
+#addtodobtn{
+    border:none;
+    padding:5px;
+    background-color:orangered;
+    color:white;
+    border-radius:5px;
+    margin-left:0.3rem;
+    cursor: pointer;
+    transition:.3s all;
+}
+#addtodobtn:hover{
+    background-color:black;
+    color:white;
+}
+.lists{
+    text-align:left;
+    color:white;
+    margin-top:0.5rem;
+    font-size:1.2rem;
+}
+.cl-style{
+    margin-top:0.2rem;
+}
+.fa-trash{
+    color:orangered;
+    padding:3px;
+    font-size:1.1rem;
+}
+.fa-trash:hover{
+    cursor: pointer;
+    background-color:yellow;
+}
+.lists-style{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#333;
+    padding:0.5rem;
+    border-radius:0.1rem;
+    cursor: pointer;
+    transition:.4s;
+}
+.lists-style:hover{
+    background-color:#111;
+}
+.bg-success{
+    background-color:skyblue;
+    padding:1px;
+    border-left:3px solid springgreen;
+}
+.bg-danger{
+    background-color:#ffdddd;
+    padding:1px;
+    border-left:3px solid #f44336;
+}
